@@ -1,7 +1,7 @@
 const updateSkill = ("id", 0) => {
   const skillProgressHTML = document.querySelector("id");
   return skillProgressHTML.style.width = "0%";
-}
+};
   
   const promptHTML = Number(prompt("Ohodnoťte své znalosti HTML na stupnici od 0 do 100:"));
   const promptCSS = Number(prompt("Ohodnoťte své znalosti CSS na stupnici od 0 do 100:"));
