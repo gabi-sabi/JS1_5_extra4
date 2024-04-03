@@ -16,7 +16,7 @@
   skillValueJS.textContent = `${promptJS} / 100`;
   skillProgressJS.style.width = `${promptJS}%`;
 
-  /*POKUS
+  //POKUS
   const updateSkill = (id, number) => {
     let number = 0;
     if (number === promptHTML) {
@@ -51,5 +51,5 @@
    return promptHTML, promptCSS, promptJS; 
   }
 
-  const userSkill = updateSkill("#skill1", userInput);*/
+  const userSkill = updateSkill("#skill1", userInput);
 
